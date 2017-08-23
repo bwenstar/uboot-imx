@@ -193,6 +193,8 @@ obj-$(CONFIG_CMD_SPL) += cmd_spl.o
 obj-$(CONFIG_CMD_ZIP) += cmd_zip.o
 obj-$(CONFIG_CMD_ZFS) += cmd_zfs.o
 
+obj-y += cmd_setenvram.o
+
 # others
 obj-$(CONFIG_BOOTSTAGE) += bootstage.o
 obj-$(CONFIG_CONSOLE_MUX) += iomux.o
